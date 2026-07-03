@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "category": "main_courses",
+    "price": 18.00,
+    "image": "/assets/images/pizza.jpg",
+    "rating": 4.9,
+    "name": {
+      "en": "Italian Pepperoni Pizza",
+      "ar": "بيتزا الببروني الإيطالية"
+    },
+    "description": {
+      "en": "Freshly baked crust topped with rich tomato sauce, mozzarella cheese, and premium beef pepperoni.",
+      "ar": "عجينة طازجة ومخبوزة مغطاة بصلصة الطماطم الغنية، جبنة الموزاريلا، وشرائح الببروني البقري الفاخرة."
+    },
+    "ingredients": {
+      "en": ["Dough", "Tomato Sauce", "Mozzarella", "Pepperoni"],
+      "ar": ["عجين", "صلصة طماطم", "موزاريلا", "ببروني"]
+    }
+  },
+  {
+    "id": 2,
+    "category": "main_courses",
+    "price": 14.50,
+    "image": "/assets/images/broccoli-salad.jpg",
+    "rating": 4.7,
+    "name": {
+      "en": "Healthy Broccoli & Chicken Salad",
+      "ar": "سلطة البروكلي الصحية بالدجاج"
+    },
+    "description": {
+      "en": "Fresh steamed broccoli mixed with grilled chicken breast cubes, cherry tomatoes, and olive oil dressing.",
+      "ar": "بروكلي طازج على البخار ممزوج مع مكعبات صدر الدجاج المشوي، الطماطم الكرزية، وتتبيلة زيت الزيتون."
+    },
+    "ingredients": {
+      "en": ["Broccoli", "Grilled Chicken", "Cherry Tomatoes", "Olive Oil"],
+      "ar": ["بروكلي", "دجاج مشوي", "طماطم كرزية", "زيت زيتون"]
+    }
+  },
+  {
+    "id": 3,
+    "category": "main_courses",
+    "price": 16.00,
+    "image": "/assets/images/burger.jpg",
+    "rating": 4.8,
+    "name": {
+      "en": "Sarab Crispy Chicken Burger",
+      "ar": "برجر الدجاج المقرمش من سراب"
+    },
+    "description": {
+      "en": "Crispy fried chicken breast with melted cheddar cheese, lettuce, pickles, and our special secret sauce.",
+      "ar": "صدر دجاج مقرمش ومقلي مع جبنة الشيدر الذائبة، الخس، المخلل، وصلصتنا السرية الخاصة."
+    },
+    "ingredients": {
+      "en": ["Fried Chicken", "Cheddar Cheese", "Lettuce", "Pickles", "Sarab Sauce"],
+      "ar": ["دجاج مقلي", "جبنة شيدر", "خس", "مخلل", "صلصة سراب"]
+    }
+  },
+  {
+    "id": 4,
+    "category": "main_courses",
+    "price": 19.50,
+    "image": "/assets/images/pasta.jpg",
+    "rating": 4.9,
+    "name": {
+      "en": "Creamy Chicken Alfredo Pasta",
+      "ar": "باستا ألفريدو الكريمية بالدجاج"
+    },
+    "description": {
+      "en": "Fettuccine pasta tossed in rich parmesan cream sauce with grilled chicken and fresh mushrooms.",
+      "ar": "باستا الفيتوتشيني المغمسة بصلصة كريمة البارميزان الغنية مع الدجاج المشوي والفطر الطازج."
+    },
+    "ingredients": {
+      "en": ["Fettuccine", "Alfredo Sauce", "Grilled Chicken", "Mushrooms", "Parmesan"],
+      "ar": ["فيتوتشيني", "صلصة ألفريدو", "دجاج مشوي", "فطر", "بارميزان"]
+    }
+  },
+  {
+    "id": 5,
+    "category": "breakfast",
+    "price": 12.00,
+    "image": "/assets/images/pancakes.jpg",
+    "rating": 4.6,
+    "name": {
+      "en": "Fluffy Maple Pancakes",
+      "ar": "بان كيك هش بشراب الميبل"
+    },
+    "description": {
+      "en": "A stack of fluffy pancakes served with fresh berries, butter, and premium maple syrup.",
+      "ar": "طبقات من البان كيك الهش تُقدم مع التوت الطازج، الزبدة، وشراب القيقب الفاخر."
+    },
+    "ingredients": {
+      "en": ["Pancake Mix", "Maple Syrup", "Berries", "Butter"],
+      "ar": ["خليط البان كيك", "شراب الميبل", "توت", "زبدة"]
+    }
+  },
+  {
+    "id": 6,
+    "category": "drinks",
+    "price": 4.50,
+    "image": "/assets/images/mojito.jpg",
+    "rating": 4.8,
+    "name": {
+      "en": "Refreshing Mint Mojito",
+      "ar": "موهيتو النعناع المنعش"
+    },
+    "description": {
+      "en": "A cold, refreshing blend of fresh mint leaves, lime juice, soda, and crushed ice.",
+      "ar": "مزيج بارد ومنعش من أوراق النعناع الطازجة، عصير الليمون، الصودا، والثلج المجروش."
+    },
+    "ingredients": {
+      "en": ["Mint", "Lime", "Soda", "Ice"],
+      "ar": ["نعناع", "ليمون", "صودا", "ثلج"]
+    }
+  },
+  {
+    "id": 7,
+    "category": "drinks",
+    "price": 5.50,
+    "image": "/assets/images/iced-latte.jpg",
+    "rating": 4.7,
+    "name": {
+      "en": "Iced Spanish Latte",
+      "ar": "سبانش لاتيه بارد"
+    },
+    "description": {
+      "en": "Rich espresso blended with fresh milk and sweetened condensed milk over ice.",
+      "ar": "إسبريسو غني ممزوج بالحليب الطازج والحليب المكثف المحلى مع الثلج."
+    },
+    "ingredients": {
+      "en": ["Espresso", "Milk", "Condensed Milk", "Ice"],
+      "ar": ["إسبريسو", "حليب", "حليب مكثف", "ثلج"]
+    }
+  },
+  {
+    "id": 8,
+    "category": "desserts",
+    "price": 7.00,
+    "image": "/assets/images/cake.jpg",
+    "rating": 4.6,
+    "name": {
+      "en": "Lava Chocolate Cake",
+      "ar": "كعكة الشوكولاتة الذائبة"
+    },
+    "description": {
+      "en": "Delicious warm chocolate cake with a rich molten center, served with a scoop of vanilla ice cream.",
+      "ar": "كعكة شوكولاتة دافئة ولذيذة محشوة بالشوكولاتة السائلة، تُقدم مع كرة من آيس كريم الفانيليا."
+    },
+    "ingredients": {
+      "en": ["Chocolate", "Flour", "Butter", "Vanilla Ice Cream"],
+      "ar": ["شوكولاتة", "دقيق", "زبدة", "آيس كريم فانيليا"]
+    }
+  }
+]

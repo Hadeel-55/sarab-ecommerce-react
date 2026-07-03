@@ -1,0 +1,87 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "reservations": "Reservations",
+    "cart": "Cart",
+    "search_placeholder": "Search for food or drinks..."
+  },
+  "hero": {
+    "welcome": "Welcome to Sarab",
+    "title": "Delicious Food & Cozy Ambience",
+    "subtitle": "Experience the authentic taste prepared by our professional chefs.",
+    "book_btn": "Book A Table",
+    "menu_btn": "View Menu"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Crafting Flavors Since Years",
+    "description": "At Sarab, we combine fresh local ingredients with traditional recipes to offer an unforgettable dining experience. Every dish is a story of passion والأصالة.",
+    "features": {
+      "fresh": "100% Fresh Ingredients",
+      "chefs": "Professional Culinary Chefs",
+      "delivery": "Fast & Safe Delivery"
+    }
+  },
+  "menu_section": {
+    "title": "Our Special Menu",
+    "all": "All Dishes",
+    "breakfast": "Breakfast",
+    "main_courses": "Main Courses",
+    "drinks": "Drinks",
+    "desserts": "Desserts",
+    "add_to_cart": "Add to Cart",
+    "search_no_results": "No items found matching your search."
+  },
+  "product_details": {
+    "back": "Back to Menu",
+    "ingredients": "Ingredients",
+    "quantity": "Quantity",
+    "description_title": "Product Description",
+    "reviews": "Customer Reviews"
+  },
+  "cart": {
+    "title": "Your Order Drawer",
+    "empty": "Your cart is empty yet.",
+    "total": "Total:",
+    "checkout": "Proceed To Checkout",
+    "remove": "Remove"
+  },
+  "checkout_page": {
+    "title": "Checkout & Billing",
+    "billing_details": "Billing Details",
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Delivery Fee",
+    "free": "Free",
+    "place_order": "Place Order Now",
+    "payment_method": "Payment Method",
+    "cash_on_delivery": "Cash on Delivery",
+    "credit_card": "Credit Card"
+  },
+  "reservation_form": {
+    "title": "Book A Table Online",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "guests": "Number of Guests",
+    "date": "Date",
+    "time": "Time",
+    "submit": "Confirm Reservation",
+    "success": "Your table has been reserved successfully!"
+  },
+  "not_found": {
+    "code": "404",
+    "title": "Oops! Page Not Found",
+    "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "back_home": "Back to Home Page"
+  },
+  "footer": {
+    "rights": "© 2026 Sarab Restaurant. All Rights Reserved.",
+    "opening_hours": "Opening Hours",
+    "hours_detail": "Mon - Sun: 09:00 AM - 11:00 PM",
+    "contact": "Contact Us",
+    "address": "Istanbul, Turkey"
+  }
+}
