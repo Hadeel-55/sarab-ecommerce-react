@@ -1,11 +1,16 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About Us",
+    "about": "About",
     "menu": "Menu",
     "reservations": "Reservations",
-    "cart": "Cart",
-    "search_placeholder": "Search for food or drinks..."
+    "cart": "Order Now",
+    "search_placeholder": "Search for food or drinks...",
+    "subtitle":"Fast Food & Restaurant",
+    "chefs":"Chefs",
+    "reviews":"Reviews",
+    "contact":"Contact",
+    "blog":"Blog"
   },
   "hero": {
     "welcome": "Welcome to Sarab",
@@ -25,6 +30,7 @@
     }
   },
   "menu_section": {
+    "menu":"Our Menu",
     "title": "Our Special Menu",
     "all": "All Dishes",
     "breakfast": "Breakfast",
@@ -78,10 +84,13 @@
     "back_home": "Back to Home Page"
   },
   "footer": {
+    "quickLinks": "Quick Links",
     "rights": "© 2026 Sarab Restaurant. All Rights Reserved.",
     "opening_hours": "Opening Hours",
     "hours_detail": "Mon - Sun: 09:00 AM - 11:00 PM",
     "contact": "Contact Us",
-    "address": "Istanbul, Turkey"
+    "address": "Adderss",
+    "address_description": "77 Gourmet Avenue, Food District, Manhattan, NY 10001",
+    "description": "We bring the world's finest flavors together in a fast, friendly, and affordable experience. Every meal crafted with love."
   }
 }

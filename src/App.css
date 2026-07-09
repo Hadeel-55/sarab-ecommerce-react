@@ -1,0 +1,185 @@
+body {
+  font-family: "Playfair Display", serif;
+  color: var(--text-main);
+  background-color: var(--bg-light);
+  overflow-x: hidden;
+}
+.sarab-brand {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  box-shadow: var(--shadow-sm);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.sarab-brand-name {
+  color: var(--primary-color);
+}
+.sarab-navbar-text {
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  letter-spacing: 2px;
+}
+
+.sarab-btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-smooth);
+}
+
+.sarab-btn-primary:hover {
+  box-shadow:
+    0 5px 20px rgba(232, 40, 26, 0.3),
+    0 5px 20px rgba(246, 166, 35, 0.3);
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in;
+}
+
+.sarab-btn-outline {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-smooth);
+}
+
+.sarab-btn-outline:hover {
+  background-color: var(--secondary-color);
+  color: var(--bg-white);
+}
+.sarab-btn-searh:hover {
+  background-color: rgb(232, 40, 26, 0.3);
+  padding: 5px;
+  border-radius: 8px;
+  color: var(--primary-color);
+}
+
+.sarab-card-hover {
+  transition: var(--transition-smooth);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-white);
+}
+
+.sarab-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: transparent;
+}
+
+.sarab-nav-link {
+  color: var(--text-main);
+  font-weight: 500;
+  transition:
+    var(--transition-smooth),
+    color 0.3s ease;
+  position: relative;
+}
+
+.sarab-nav-link:hover,
+.sarab-nav-link.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+/* footer */
+.footer-section {
+  background-color: #292828;
+  padding: 50px;
+    transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.footer-SocialMedia-Icon {
+  cursor: pointer;
+  padding: 4px 8px;
+  color: #777;
+  background-color: #444;
+  border-radius: 9px;
+    transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+.footer-SocialMedia-Icon:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-4px);
+  transition: translate 0.01s ease-in;
+}
+.footer-quickLinks {
+  color: white;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 8px;
+  width: 120px;
+}
+.footer-quickLinks-list svg {
+  color: var(--primary-color);
+}
+.footer-quickLinks-list {
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.footer-quickLinks-link {
+  text-decoration: none;
+  color: #777;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+  display: inline-block;
+}
+
+.footer-quickLinks-list:hover .footer-quickLinks-link {
+  color: var(--secondary-color);
+}
+.footer-quickLinks-list:hover {
+  transform: translateX(8px);
+  color: var(--secondary-color);
+}
+
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-contact-icon-box {
+  background-color: #e8281a24; 
+  color: var(--primary-color);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.footer-contact-text h6 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-contact-text p {
+  margin: 0;
+  color: #aaa;
+  font-size: 14px;
+}
