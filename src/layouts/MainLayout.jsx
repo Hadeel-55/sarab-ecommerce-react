@@ -5,7 +5,7 @@ const MainLayout = () => {
   return (
     <div>
        <NavBar />  
-      <h1>navbar & footer</h1>
+    
 
       <div className="page-content">
         <Outlet />

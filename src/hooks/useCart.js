@@ -4,7 +4,7 @@ const useCart = () => {
   // 2. Use custom hook to persist cart data on page refresh
   const [cartItems, setCartItems] = useLocalStorage("cartItems", []);
   // 3. Smart add-to-cart (prevents duplicates, increments quantity if item exists)
-  const addCartItem = (product, quantity) => {
+  const addCartItem = (product, quantity=1) => {
     setCartItems((prevItems) => {
       const isExist = prevItems.find((item) => item.id === product.id);
       if (isExist) {

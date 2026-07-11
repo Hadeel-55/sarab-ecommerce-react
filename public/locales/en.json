@@ -6,18 +6,39 @@
     "reservations": "Reservations",
     "cart": "Order Now",
     "search_placeholder": "Search for food or drinks...",
-    "subtitle":"Fast Food & Restaurant",
-    "chefs":"Chefs",
-    "reviews":"Reviews",
-    "contact":"Contact",
-    "blog":"Blog"
+    "subtitle": "Fast Food & Restaurant",
+    "chefs": "Chefs",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "blog": "Blog"
   },
   "hero": {
-    "welcome": "Welcome to Sarab",
-    "title": "Delicious Food & Cozy Ambience",
-    "subtitle": "Experience the authentic taste prepared by our professional chefs.",
-    "book_btn": "Book A Table",
-    "menu_btn": "View Menu"
+    "welcome": "#1 Rated Fast Food Restaurant",
+
+    "title": {
+      "before": "Delicious ",
+      "highlight": "Fast Food ",
+      "after": "for Every Moment"
+    },
+    "subtitle": "Experience bold flavors crafted from premium ingredients. From crispy burgers to gourmet pizzas - every bite is an adventure worth savoring.",
+    "menu_btn": "Explore Menu",
+    "story_btn": "Watch Our Story",
+    "hot_deal": "Hot Deal",
+    "discount": "30% off today",
+    "fast_delivery": "Fast delivery",
+    "delivery_time": "20 min",
+    "rating": "4.9/5",
+    "reviews": "2k+ reviews",
+    "stats": {
+      "customers_count": "850+",
+      "customers_text": "HAPPY CUSTOMERS",
+      "items_count": "120+",
+      "items_text": "MENU ITEMS",
+      "chefs_count": "15+",
+      "chefs_text": "EXPERT CHEFS",
+      "exp_count": "12yr",
+      "exp_text": "EXPERIENCE"
+    }
   },
   "about": {
     "title": "Our Story",
@@ -30,7 +51,7 @@
     }
   },
   "menu_section": {
-    "menu":"Our Menu",
+    "menu": "Our Menu",
     "title": "Our Special Menu",
     "all": "All Dishes",
     "breakfast": "Breakfast",
@@ -92,5 +113,42 @@
     "address": "Adderss",
     "address_description": "77 Gourmet Avenue, Food District, Manhattan, NY 10001",
     "description": "We bring the world's finest flavors together in a fast, friendly, and affordable experience. Every meal crafted with love."
+  },
+  "testimonials": {
+    "badge": "What People Say",
+    "title_before": "Our Customers ",
+    "title_highlight": "Feedback",
+    "reviews": [
+      {
+        "id": 1,
+        "text": "Ordered delivery and the food arrived hot and fresh in 22 minutes. Portions are generous. Sarab has become my go-to comfort food spot without question.",
+        "name": "Cameron Fox",
+        "role": "Food Blogger"
+      },
+      {
+        "id": 2,
+        "text": "The truffle pasta blew my mind. I didn't expect that quality from a fast food place. Great ambiance, super friendly staff. Highly recommended!",
+        "name": "Priya Sharma",
+        "role": "Food Enthusiast"
+      },
+      {
+        "id": 3,
+        "text": "Catered our office party of 50 people and everything was flawless. Fresh, delicious, on time and well presented. Nashville chicken was the absolute star!",
+        "name": "David Park",
+        "role": "Corporate Client"
+      },
+      {
+        "id": 4,
+        "text": "The burgers here are on another level! Perfectly juicy, fresh buns, and the signature sauce is incredible. Will definitely order again.",
+        "name": "Sarah Jenkins",
+        "role": "Local Guide"
+      },
+      {
+        "id": 5,
+        "text": "Best dessert spot in town. The chocolate lava cake is a must-try, and the staff made us feel so welcome!",
+        "name": "Michael Chang",
+        "role": "Sweet Tooth"
+      }
+    ]
   }
 }

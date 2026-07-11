@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "category": "main_courses",
-    "price": 18.00,
-    "image": "/assets/images/pizza.jpg",
+    "category": { "en": "main_courses", "ar": "وجبة اساسية" },
+    "price": 18.0,
+    "image": "/images/productsImg/pizza.jpg",
     "rating": 4.9,
     "name": {
       "en": "Italian Pepperoni Pizza",
@@ -20,9 +20,9 @@
   },
   {
     "id": 2,
-    "category": "main_courses",
-    "price": 14.50,
-    "image": "/assets/images/broccoli-salad.jpg",
+    "category": { "en": "main_courses", "ar": "وجبة اساسية" },
+    "price": 14.5,
+    "image": "/images/productsImg/broccoli-salad.jpg",
     "rating": 4.7,
     "name": {
       "en": "Healthy Broccoli & Chicken Salad",
@@ -39,9 +39,9 @@
   },
   {
     "id": 3,
-    "category": "main_courses",
-    "price": 16.00,
-    "image": "/assets/images/burger.jpg",
+    "category": { "en": "main_courses", "ar": "وجبة اساسية" },
+    "price": 16.0,
+    "image": "/images/productsImg/burger.jpg",
     "rating": 4.8,
     "name": {
       "en": "Sarab Crispy Chicken Burger",
@@ -52,15 +52,21 @@
       "ar": "صدر دجاج مقرمش ومقلي مع جبنة الشيدر الذائبة، الخس، المخلل، وصلصتنا السرية الخاصة."
     },
     "ingredients": {
-      "en": ["Fried Chicken", "Cheddar Cheese", "Lettuce", "Pickles", "Sarab Sauce"],
+      "en": [
+        "Fried Chicken",
+        "Cheddar Cheese",
+        "Lettuce",
+        "Pickles",
+        "Sarab Sauce"
+      ],
       "ar": ["دجاج مقلي", "جبنة شيدر", "خس", "مخلل", "صلصة سراب"]
     }
   },
   {
     "id": 4,
-    "category": "main_courses",
-    "price": 19.50,
-    "image": "/assets/images/pasta.jpg",
+    "category": { "en": "main_courses", "ar": "وجبة اساسية" },
+    "price": 19.5,
+    "image": "/images/productsImg/pasta.jpg",
     "rating": 4.9,
     "name": {
       "en": "Creamy Chicken Alfredo Pasta",
@@ -71,15 +77,21 @@
       "ar": "باستا الفيتوتشيني المغمسة بصلصة كريمة البارميزان الغنية مع الدجاج المشوي والفطر الطازج."
     },
     "ingredients": {
-      "en": ["Fettuccine", "Alfredo Sauce", "Grilled Chicken", "Mushrooms", "Parmesan"],
+      "en": [
+        "Fettuccine",
+        "Alfredo Sauce",
+        "Grilled Chicken",
+        "Mushrooms",
+        "Parmesan"
+      ],
       "ar": ["فيتوتشيني", "صلصة ألفريدو", "دجاج مشوي", "فطر", "بارميزان"]
     }
   },
   {
     "id": 5,
-    "category": "breakfast",
-    "price": 12.00,
-    "image": "/assets/images/pancakes.jpg",
+    "category": { "en": "breakfast", "ar": "فطور" },
+    "price": 12.0,
+    "image": "/images/productsImg/pancakes.jpg",
     "rating": 4.6,
     "name": {
       "en": "Fluffy Maple Pancakes",
@@ -96,9 +108,9 @@
   },
   {
     "id": 6,
-    "category": "drinks",
-    "price": 4.50,
-    "image": "/assets/images/mojito.jpg",
+    "category": { "en": "drinks", "ar": "مشروبات" },
+    "price": 4.5,
+    "image": "/images/productsImg/mojito.jpg",
     "rating": 4.8,
     "name": {
       "en": "Refreshing Mint Mojito",
@@ -115,9 +127,9 @@
   },
   {
     "id": 7,
-    "category": "drinks",
-    "price": 5.50,
-    "image": "/assets/images/iced-latte.jpg",
+    "category": { "en": "drinks", "ar": "مشروبات" },
+    "price": 5.5,
+    "image": "/images/productsImg/iced-latte.jpg",
     "rating": 4.7,
     "name": {
       "en": "Iced Spanish Latte",
@@ -134,9 +146,9 @@
   },
   {
     "id": 8,
-    "category": "desserts",
-    "price": 7.00,
-    "image": "/assets/images/cake.jpg",
+    "category": { "en": "desserts", "ar": "حلوى" },
+    "price": 7.0,
+    "image": "/images/productsImg/cake.jpg",
     "rating": 4.6,
     "name": {
       "en": "Lava Chocolate Cake",
