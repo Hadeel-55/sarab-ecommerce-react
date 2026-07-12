@@ -6,11 +6,12 @@ import CustomButton from "../common/Button";
 import useLanguage from "../../context/LanguageContext";
 import { useTranslation } from "react-i18next";
 import useCartContext from "../../context/CartContext";
+
 const NavBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const { cartCount } = useCartContext();
+  const { cartCount ,toggleCart,isCartOpen} = useCartContext();
 
   const { t } = useTranslation();
   const [currentLang, changeLanguage] = useLanguage();
@@ -156,6 +157,7 @@ const NavBar = () => {
             />
 
             <CustomButton
+            onClick={toggleCart}
               title={t("navbar.cart", "Order Now")}
               icon={
                 <div className="position-relative d-inline-block">

@@ -1,10 +1,10 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, useState } from "react";
 import useCart from "../hooks/useCart";
 // 1. Create the Cart Context to manage global shopping cart state
 export const CartContext = createContext();
 // 2. Create the Provider component to distribute cart data and actions
 export const CartProvider = ({ children }) => {
-    // Fetch all operational cart states and methods from our custom hook
+  // Fetch all operational cart states and methods from our custom hook
   const cartData = useCart();
   const {
     cartItems,
@@ -15,6 +15,10 @@ export const CartProvider = ({ children }) => {
     totalPrice,
     updateQuantity,
   } = cartData;
+
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const toggleCart = () => setIsCartOpen((prev) => !prev);
+  const closeCart = () => setIsCartOpen(false);
 
   return (
     // Provide the extracted cart data to the entire application tree
@@ -27,6 +31,9 @@ export const CartProvider = ({ children }) => {
         cartCount,
         totalPrice,
         updateQuantity,
+        isCartOpen,
+        toggleCart,
+        closeCart,
       }}
     >
       {children}
@@ -35,7 +42,7 @@ export const CartProvider = ({ children }) => {
 };
 // 3. Custom Hook to easily and safely consume cart data in any component
 const useCartContext = () => {
-    // Access the shared cart context values
+  // Access the shared cart context values
   const cartContext = useContext(CartContext);
   // Safety check: Throw a descriptive error if the hook is used outside a CartProvider
   if (!cartContext) {
