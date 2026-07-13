@@ -4,7 +4,7 @@ import useLanguage from "../../context/LanguageContext";
 
 import { FaTrash } from "react-icons/fa";
 const CartItem = ({ item }) => {
-  const { currentLanguage } = useLanguage();
+  const [ currentLanguage] = useLanguage();
   const { updateQuantity, removeCartItem, cartItems, cartCount } =
     useCartContext();
   const handleIncrease = () => {
@@ -35,7 +35,7 @@ const CartItem = ({ item }) => {
           />
         </div>
 
-        <div className="flex-grow-1">
+        <div className="flex-grow-1 p-2">
           <h6
             className="mb-1 text-dark fw-bold"
             style={{ fontSize: "0.95rem" }}

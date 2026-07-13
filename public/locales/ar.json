@@ -85,7 +85,8 @@
     "place_order": "تأكيد الطلب الآن",
     "payment_method": "طريقة الدفع",
     "cash_on_delivery": "الدفع عند الاستلام",
-    "credit_card": "بطاقة ائتمان"
+    "credit_card": "بطاقة ائتمان",
+    "kuveyt_Turk":"كويت ترك"
   },
   "reservation_form": {
     "title": "احجز طاولتك عبر الإنترنت",
