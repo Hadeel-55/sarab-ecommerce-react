@@ -89,6 +89,14 @@
     "kuveyt_Turk":"Kuveyt Türk"
   },
   "reservation_form": {
+    "sub_title": "Book a Table",
+    "main_title": "Make a Reservation",
+    "description": "Reserve your table for a memorable dining experience. We recommend booking 24 hours in advance for weekend evenings.",
+    "title_part1": "Browse by ",
+  "title_part2": "Category",
+  "special_Requests":"Special Requests",
+  "my_bookings_title": "My Current Bookings",
+    "cancel": "Cancel Booking",
     "title": "Book A Table Online",
     "name": "Full Name",
     "email": "Email Address",
