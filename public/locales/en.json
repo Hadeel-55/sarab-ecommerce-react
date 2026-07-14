@@ -105,7 +105,14 @@
     "date": "Date",
     "time": "Time",
     "submit": "Confirm Reservation",
-    "success": "Your table has been reserved successfully!"
+    "success": "Your table has been reserved successfully!",
+    "guests_options": {
+        "person_1": "1 Person",
+        "people_2": "2 People",
+        "people_3": "3 People",
+        "people_4": "4 People",
+        "people_5_plus": "5+ People"
+      }
   },
   "not_found": {
     "code": "404",

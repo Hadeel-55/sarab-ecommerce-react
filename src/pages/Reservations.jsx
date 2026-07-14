@@ -153,11 +153,21 @@ const Reservations = () => {
                 value={formData.guests}
                 onChange={handleChange}
               >
-                <option value="1 Person">1 Person</option>
-                <option value="2 People">2 People</option>
-                <option value="3 People">3 People</option>
-                <option value="4 People">4 People</option>
-                <option value="5+ Person">5+ Person</option>
+         <option value="person_1">
+    {t("reservation_form.guests_options.person_1")}
+  </option>
+  <option value="people_2">
+    {t("reservation_form.guests_options.people_2")}
+  </option>
+  <option value="people_3">
+    {t("reservation_form.guests_options.people_3")}
+  </option>
+  <option value="people_4">
+    {t("reservation_form.guests_options.people_4")}
+  </option>
+  <option value="people_5_plus">
+    {t("reservation_form.guests_options.people_5_plus")}
+  </option>
               </Form.Select>
             </Form.Group>
           </Col>
@@ -245,10 +255,10 @@ const Reservations = () => {
                   <Card.Body>
                     <div className="d-flex justify-content-between align-items-center">
                       <h5 className="fs-bold text-dark mb-1">
-                        {t(booking.name)}
+                        {booking.name}
                       </h5>
                       <span className="badge bg-success-subtle text-success p-2 rounded-3">
-                        {booking.guests}
+                        {t(`reservation_form.guests_options.${booking.guests}`)}
                       </span>
                     </div>
                     <p className="text-muted small mb-2">{booking.email}</p>
