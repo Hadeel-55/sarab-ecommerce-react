@@ -86,16 +86,16 @@
     "payment_method": "Payment Method",
     "cash_on_delivery": "Cash on Delivery",
     "credit_card": "Credit Card",
-    "kuveyt_Turk":"Kuveyt Türk"
+    "kuveyt_Turk": "Kuveyt Türk"
   },
   "reservation_form": {
     "sub_title": "Book a Table",
     "main_title": "Make a Reservation",
     "description": "Reserve your table for a memorable dining experience. We recommend booking 24 hours in advance for weekend evenings.",
     "title_part1": "Browse by ",
-  "title_part2": "Category",
-  "special_Requests":"Special Requests",
-  "my_bookings_title": "My Current Bookings",
+    "title_part2": "Category",
+    "special_Requests": "Special Requests",
+    "my_bookings_title": "My Current Bookings",
     "cancel": "Cancel Booking",
     "title": "Book A Table Online",
     "name": "Full Name",
@@ -113,6 +113,38 @@
     "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
     "back_home": "Back to Home Page"
   },
+
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title1": "Contact ",
+    "title2": "Us",
+    "description": "Have a question, feedback, or want to plan a special event? We'd love to hear from you.",
+    "form": {
+      "name_label": "Your Name *",
+      "name_placeholder": "John Doe",
+      "email_label": "Email Address *",
+      "email_placeholder": "you@email.com",
+      "phone_label": "Phone Number*",
+      "phone_placeholder": "+1 (800) 000-0000",
+      "subject_label": "Subject *",
+      "subject_options": {
+          "general": "General Inquiry",
+          "catering_events": "Catering & Events",
+          "feedback": "Feedback",
+          "partnership": "Partnership",
+          "media_press": "Media & Press"
+        },
+      "subject_option_media": "Media & Press",
+      "message_label": "Message *",
+      "message_placeholder": "Write your message here...",
+      "submit_btn": "Send Message"
+    },
+    "success": {
+      "title": "Message sent!",
+      "subtitle": "We'll reply within 2 hours."
+    }
+  },
+
   "footer": {
     "quickLinks": "Quick Links",
     "rights": "© 2026 Sarab Restaurant. All Rights Reserved.",

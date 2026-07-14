@@ -86,17 +86,17 @@
     "payment_method": "طريقة الدفع",
     "cash_on_delivery": "الدفع عند الاستلام",
     "credit_card": "بطاقة ائتمان",
-    "kuveyt_Turk":"كويت ترك"
+    "kuveyt_Turk": "كويت ترك"
   },
   "reservation_form": {
     "sub_title": "احجز طاولة",
     "main_title": "قم بإجراء حجز",
     "description": "احجز طاولتك لتجربة طعام لا تُنسى. نوصي بالحجز قبل 24 ساعة لأمسيات نهاية الأسبوع.",
     "title_part1": "تصفح حسب ",
-  "title_part2": "التصنيف",
-  "special_Requests":"طلبات خاصة",
-  "my_bookings_title": "حجوزاتي الحالية",
-  "cancel": "إلغاء الحجز",
+    "title_part2": "التصنيف",
+    "special_Requests": "طلبات خاصة",
+    "my_bookings_title": "حجوزاتي الحالية",
+    "cancel": "إلغاء الحجز",
     "title": "احجز طاولتك عبر الإنترنت",
     "name": "الاسم الكامل",
     "email": "البريد الإلكتروني",
@@ -112,6 +112,37 @@
     "title": "عذراً! الصفحة غير موجودة",
     "message": "ربما تم حذف الصفحة التي تبحثين عنها، أو تم تغيير اسمها، أو أنها غير متاحة مؤقتاً.",
     "back_home": "العودة إلى الصفحة الرئيسية"
+  },
+
+  "contact": {
+    "subtitle": "تواصل معنا",
+    "title1": "اتصل",
+    "title2": "بنا",
+    "description": "لديك سؤال، ملاحظة، أو ترغب في التخطيط لحدث خاص؟ يسعدنا جداً السماع منك.",
+    "form": {
+      "name_label": "الاسم *",
+      "name_placeholder": "الاسم الكامل",
+      "email_label": "البريد الإلكتروني *",
+      "email_placeholder": "you@email.com",
+      "phone_label": "رقم الهاتف*",
+      "phone_placeholder": "+1 (800) 000-0000",
+      "subject_label": "الموضوع *",
+      "subject_options": {
+          "general": "استفسار عام",
+          "catering_events": "الحفلات والفعاليات",
+          "feedback": "الآراء والملاحظات",
+          "partnership": "الشراكة والتعاون",
+          "media_press": "الإعلام والصحافة"
+        },
+      "subject_option_media": "الإعلام والصحافة",
+      "message_label": "الرسالة *",
+      "message_placeholder": "اكتب رسالتك هنا...",
+      "submit_btn": "إرسال الرسالة"
+    },
+    "success": {
+      "title": "تم إرسال الرسالة بنجاح!",
+      "subtitle": "سنقوم بالرد عليك خلال ساعتين."
+    }
   },
   "footer": {
     "quickLinks": "روابط سريعة",

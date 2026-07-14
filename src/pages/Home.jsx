@@ -4,6 +4,7 @@ import Hero from "../components/home/Hero";
 import CategoryBrowse from "../components/home/CategoryBrowse";
 import NewsletterSection from "../components/home/Newsletter";
 import Testimonials from "../components/home/Testimonials";
+import Contact from "../components/contact/Contact";
 const Home = () => {
   const location = useLocation();
 
@@ -18,11 +19,17 @@ const Home = () => {
 
   return (
     <div>
-      <Hero />
+      <div id="home-hero">
+        <Hero />
+      </div>
       <CategoryBrowse />
       <NewsletterSection />
-      <div id="reviews"> <Testimonials /></div>
-     
+      <div id="reviews">
+        <Testimonials />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 };
