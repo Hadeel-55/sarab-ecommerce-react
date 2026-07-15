@@ -9,11 +9,11 @@ const Menu = () => {
   const { t } = useTranslation();
   const [currentLanguage] = useLanguage();
   const { addCartItem } = useCartContext();
-const [selectedCategory,setSelectedCategory]=useState('all');
-const filtereProducts=ProductList.filter((dish)=>{
-    if(selectedCategory === 'all') return true;
+  const [selectedCategory, setSelectedCategory] = useState("all");
+  const filtereProducts = ProductList.filter((dish) => {
+    if (selectedCategory === "all") return true;
     return dish.category.en === selectedCategory;
-})
+  });
   return (
     <Container className="py-5">
       <div className="text-center mb-5">
@@ -21,39 +21,45 @@ const filtereProducts=ProductList.filter((dish)=>{
         <p className="text-muted">{t("menu_section.menu")}</p>
       </div>
 
-   <div className="d-flex justify-content-center mb-4 gap-2 flex-wrap">
-        <Button 
-          variant={selectedCategory === "all" ? "danger" : "outline-danger"} 
+      <div className="d-flex justify-content-center mb-4 gap-2 flex-wrap">
+        <Button
+          variant={selectedCategory === "all" ? "danger" : "outline-danger"}
           onClick={() => setSelectedCategory("all")}
           className="rounded-pill px-4"
         >
           {currentLanguage === "ar" ? "الكل" : "All"}
         </Button>
-        
-        <Button 
-          variant={selectedCategory === "main_courses" ? "danger" : "outline-danger"} 
+
+        <Button
+          variant={
+            selectedCategory === "main_courses" ? "danger" : "outline-danger"
+          }
           onClick={() => setSelectedCategory("main_courses")}
           className="rounded-pill px-4"
         >
           {currentLanguage === "ar" ? "وجبات أساسية" : "Main Courses"}
         </Button>
 
-        <Button 
-          variant={selectedCategory === "drinks" ? "danger" : "outline-danger"} 
+        <Button
+          variant={selectedCategory === "drinks" ? "danger" : "outline-danger"}
           onClick={() => setSelectedCategory("drinks")}
           className="rounded-pill px-4"
         >
           {currentLanguage === "ar" ? "مشروبات" : "Drinks"}
         </Button>
-              <Button 
-          variant={selectedCategory === "breakfast" ? "danger" : "outline-danger"} 
+        <Button
+          variant={
+            selectedCategory === "breakfast" ? "danger" : "outline-danger"
+          }
           onClick={() => setSelectedCategory("breakfast")}
           className="rounded-pill px-4"
         >
           {currentLanguage === "ar" ? "فطور" : "Breakfast"}
         </Button>
-              <Button 
-          variant={selectedCategory === "desserts" ? "danger" : "outline-danger"} 
+        <Button
+          variant={
+            selectedCategory === "desserts" ? "danger" : "outline-danger"
+          }
           onClick={() => setSelectedCategory("desserts")}
           className="rounded-pill px-4"
         >
@@ -106,7 +112,10 @@ const filtereProducts=ProductList.filter((dish)=>{
                     variant="warning"
                     className="btn-sm d-flex align-items-center gap-2  text-white fw-bold rounded-pill px-3 py-2 btn-add-cart"
                     onClick={() => addCartItem(dish)}
-                    style={{ backgroundColor: "var(--primary-color)" ,border:'none'}}
+                    style={{
+                      backgroundColor: "var(--primary-color)",
+                      border: "none",
+                    }}
                   >
                     <FaPlus size={12} />
                     {t("menu_section.add_to_cart")}

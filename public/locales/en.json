@@ -114,6 +114,32 @@
         "people_5_plus": "5+ People"
       }
   },
+
+"chefs": {
+  "title": "The Culinary Team",
+    "subtitle1": "Meet Our Expert Chefs",
+    "subtitle2": "Chefs",
+      "alice": {
+        "name": "Alice Mortal",
+        "role": "Head Chef",
+        "experience": "12 years experience"
+      },
+      "michael": {
+        "name": "Michael Corn",
+        "role": "Grill Master",
+        "experience": "8 years experience"
+      },
+      "faz": {
+        "name": "Faz Chowdel",
+        "role": "Pastry Chef",
+        "experience": "10 years experience"
+      },
+      "william": {
+        "name": "William Latnum",
+        "role": "Pizza Artisan",
+        "experience": "9 years experience"
+      }},
+
   "not_found": {
     "code": "404",
     "title": "Oops! Page Not Found",
