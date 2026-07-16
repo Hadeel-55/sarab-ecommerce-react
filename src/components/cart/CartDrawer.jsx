@@ -3,7 +3,9 @@ import { useNavigate } from "react-router-dom";
 import useCartContext from "../../context/CartContext";
 import { Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import useCurrencyContext from "../../context/CurrencyContext";
 const CartDrawer = () => {
+const {formatPrice}=useCurrencyContext()
   const {t}=useTranslation();
   const { cartItems, isCartOpen, toggleCart, totalPrice, closeCart, clearCart } =
     useCartContext();
@@ -41,7 +43,7 @@ const CartDrawer = () => {
           <div className="drawer-footer p-3 border-top bg-light">
             <div className="d-flex justify-content-between mb-3 fw-bold fs-5">
               <span>{t('cart.total')}</span>
-              <span>{totalPrice} $</span>
+              <span>{formatPrice(totalPrice)}</span>
             </div>
 
             <Button

@@ -5,7 +5,9 @@ import { FaPlus, FaStar } from "react-icons/fa";
 import useCartContext from "../context/CartContext";
 import ProductList from "../data/products.json";
 import useLanguage from "../context/LanguageContext";
+import useCurrencyContext from "../context/CurrencyContext";
 const Menu = () => {
+  const {formatPrice}=useCurrencyContext()
   const { t } = useTranslation();
   const [currentLanguage] = useLanguage();
   const { addCartItem } = useCartContext();
@@ -105,7 +107,7 @@ const Menu = () => {
 
                 <div className="d-flex align-items-center justify-content-between mt-auto pt-2 border-top">
                   <span className="fw-bold fs-5 text-success">
-                    ${dish.price.toFixed(2)}
+                   {formatPrice(dish.price)}
                   </span>
 
                   <Button

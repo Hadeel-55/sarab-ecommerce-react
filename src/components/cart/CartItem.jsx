@@ -1,9 +1,10 @@
 import useCartContext from "../../context/CartContext";
 import { Card, Button } from "react-bootstrap";
 import useLanguage from "../../context/LanguageContext";
-
+import useCurrencyContext from "../../context/CurrencyContext";
 import { FaTrash } from "react-icons/fa";
 const CartItem = ({ item }) => {
+  const {formatPrice}=useCurrencyContext();
   const [ currentLanguage] = useLanguage();
   const { updateQuantity, removeCartItem, cartItems, cartCount } =
     useCartContext();
@@ -42,7 +43,7 @@ const CartItem = ({ item }) => {
           >
             {item.name[currentLanguage] || item.name.en}
           </h6>
-          <span className="text-muted small d-block mb-1">{item.price}</span>
+          <span className="text-muted small d-block mb-1">{formatPrice(item.price)}</span>
         </div>
 
         <div className="d-flex flex-column align-items-end justify-content-between h-100">

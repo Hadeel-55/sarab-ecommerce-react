@@ -6,7 +6,7 @@ import CustomButton from "../common/Button";
 import useLanguage from "../../context/LanguageContext";
 import { useTranslation } from "react-i18next";
 import useCartContext from "../../context/CartContext";
-
+import CurrencyToggle from "./CurrencyToggle";
 const NavBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -147,8 +147,9 @@ const NavBar = () => {
             </strong>
           </Nav>
           <div className="d-flex m-auto gap-3 align-items-center">
-            <div className="sarab-btn-searh" style={{ cursor: "pointer" }}>
-              <FaSearch />
+            
+            <div>
+             <CurrencyToggle/>
             </div>
             <CustomButton
               onClick={() => changeLanguage(currentLang === "ar" ? "en" : "ar")}

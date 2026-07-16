@@ -21,8 +21,9 @@ import {
   FiEyeOff,
 } from "react-icons/fi";
 import { BsBank } from "react-icons/bs";
-
+import useCurrencyContext from "../context/CurrencyContext";
 const Checkout = () => {
+  const {formatPrice}=useCurrencyContext()
   const { t, i18n } = useTranslation();
   const { cartItems, totalPrice, clearCart } = useCartContext();
   const [currentLang] = useLanguage();
@@ -76,14 +77,14 @@ const Checkout = () => {
                 </div>
               </td>
               <td>{item.quantity}</td>
-              <td>{item.price * item.quantity} $</td>
+            <td className="fw-semibold">{formatPrice(item.price* item.quantity)} </td>
             </tr>
           ))}
         </tbody>
       </Table>
       <hr />
       <p className="fs-5">
-        {t("cart.total")} <strong> {totalPrice}$ </strong>
+        {t("cart.total")} <strong> {formatPrice(totalPrice)} </strong>
       </p>
 
       <div className="payment-section p-4 border rounded shadow-sm bg-white">
