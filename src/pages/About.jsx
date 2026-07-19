@@ -1,11 +1,13 @@
-
-const About =()=>{
-
-return(
+import AboutStory from '../components/about/AboutStory';
+import AboutCallery from '../components/about/AboutGallery';
+import AboutTimeline from '../components/about/AboutTimeline';
+const About = () => {
+  return (
     <div>
-        <h1>About page</h1>
+      <AboutStory />
+      <AboutCallery />
+      <AboutTimeline />
     </div>
-)
-
-}
+  );
+};
 export default About;

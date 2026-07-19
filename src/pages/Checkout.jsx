@@ -44,7 +44,7 @@ const Checkout = () => {
     e.target.value = input;
   };
   return (
-    <Container>
+    <Container className="pb-5 pt-5">
       <h2 className="mt-5">{t("checkout_page.title")}</h2>
 
       <h4 className="mt-4 mb-3">{t("checkout_page.order_summary")}</h4>

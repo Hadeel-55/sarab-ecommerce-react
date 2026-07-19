@@ -5,6 +5,7 @@ const CustomModal = ({
   show,
   size = "md",
   children,
+  contentClassName,
   ...props
 }) => {
   return (
@@ -14,7 +15,7 @@ const CustomModal = ({
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
       )}
-      <Modal.Body className="p-0">{children}</Modal.Body>
+      <Modal.Body className={`p-0 ${contentClassName || ''}`}>{children}</Modal.Body>
     </Modal>
   );
 };

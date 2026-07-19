@@ -41,13 +41,43 @@
     }
   },
   "about": {
-    "title": "Our Story",
-    "subtitle": "Crafting Flavors Since Years",
-    "description": "At Sarab, we combine fresh local ingredients with traditional recipes to offer an unforgettable dining experience. Every dish is a story of passion والأصالة.",
-    "features": {
-      "fresh": "100% Fresh Ingredients",
-      "chefs": "Professional Culinary Chefs",
-      "delivery": "Fast & Safe Delivery"
+    "story": {
+      "subtitle": "Our Story",
+      "title1": "We Invite You to Visit Our",
+      "title2": " Food Restaurant",
+      "badge": "Years of Excellence",
+      "description": "Founded in 2012, Sarab began as a small corner joint with a big dream - to serve food that brings people together. Today we're proud to serve thousands of happy customers every week with the same passion that started it all.",
+      "features": {
+        "fresh_title": "100% Fresh Ingredients",
+        "fresh_desc": "We source locally and sustainably. Every ingredient is hand-picked daily for maximum freshness.",
+        "awards_title": "Award-Winning Recipes",
+        "awards_desc": "Our signature recipes have won national culinary awards 5 years in a row.",
+        "delivery_title": "Lightning-Fast Delivery",
+        "delivery_desc": "Order online and get hot, fresh food at your door in under 25 minutes, guaranteed."
+      },
+      "btn_menu": "View Full Menu"
+    },
+    "journey": {
+      "subtitle": "Our Journey",
+      "title1": "A History of",
+      "title2": " Restaurant",
+      "description": "From humble beginnings to the city's most beloved restaurant - every chapter written with passion.",
+      "timeline": {
+        "2012_title": "Evolution of Restaurants",
+        "2012_desc": "Sarab opens its first 20-seat diner on Flavor Street. Within 3 months, lines stretch around the block every evening as word of our food spreads.",
+        "2015_title": "Fine Dining & The Concept",
+        "2015_desc": "Expanding the vision - we introduced our signature tasting menu and hired our first Michelin-trained chef, elevating our craft to remarkable new heights.",
+        "2019_title": "Modern Fast Food Origins",
+        "2019_desc": "Launched our signature fast-food line, merging gourmet quality with speed and convenience. Within 6 months we won 3 prestigious culinary awards nationally.",
+        "2026_title": "National Expansion",
+        "2026_desc": "Now operating in 8 cities across the US with an online delivery platform handling 10,000+ orders weekly - and growing every single day."
+      }
+    },
+
+    "gallery": {
+      "subtitle": "Food Showcase",
+      "title1": "Let's See Our",
+      "title2": " Fast Food"
     }
   },
   "menu_section": {
@@ -107,38 +137,39 @@
     "submit": "Confirm Reservation",
     "success": "Your table has been reserved successfully!",
     "guests_options": {
-        "person_1": "1 Person",
-        "people_2": "2 People",
-        "people_3": "3 People",
-        "people_4": "4 People",
-        "people_5_plus": "5+ People"
-      }
+      "person_1": "1 Person",
+      "people_2": "2 People",
+      "people_3": "3 People",
+      "people_4": "4 People",
+      "people_5_plus": "5+ People"
+    }
   },
 
-"chefs": {
-  "title": "The Culinary Team",
+  "chefs": {
+    "title": "The Culinary Team",
     "subtitle1": "Meet Our Expert Chefs",
     "subtitle2": "Chefs",
-      "alice": {
-        "name": "Alice Mortal",
-        "role": "Head Chef",
-        "experience": "12 years experience"
-      },
-      "michael": {
-        "name": "Michael Corn",
-        "role": "Grill Master",
-        "experience": "8 years experience"
-      },
-      "faz": {
-        "name": "Faz Chowdel",
-        "role": "Pastry Chef",
-        "experience": "10 years experience"
-      },
-      "william": {
-        "name": "William Latnum",
-        "role": "Pizza Artisan",
-        "experience": "9 years experience"
-      }},
+    "alice": {
+      "name": "Alice Mortal",
+      "role": "Head Chef",
+      "experience": "12 years experience"
+    },
+    "michael": {
+      "name": "Michael Corn",
+      "role": "Grill Master",
+      "experience": "8 years experience"
+    },
+    "faz": {
+      "name": "Faz Chowdel",
+      "role": "Pastry Chef",
+      "experience": "10 years experience"
+    },
+    "william": {
+      "name": "William Latnum",
+      "role": "Pizza Artisan",
+      "experience": "9 years experience"
+    }
+  },
 
   "not_found": {
     "code": "404",
@@ -161,12 +192,12 @@
       "phone_placeholder": "+1 (800) 000-0000",
       "subject_label": "Subject *",
       "subject_options": {
-          "general": "General Inquiry",
-          "catering_events": "Catering & Events",
-          "feedback": "Feedback",
-          "partnership": "Partnership",
-          "media_press": "Media & Press"
-        },
+        "general": "General Inquiry",
+        "catering_events": "Catering & Events",
+        "feedback": "Feedback",
+        "partnership": "Partnership",
+        "media_press": "Media & Press"
+      },
       "subject_option_media": "Media & Press",
       "message_label": "Message *",
       "message_placeholder": "Write your message here...",

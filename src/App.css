@@ -62,7 +62,6 @@ body {
   color: var(--bg-white);
 }
 
-
 .sarab-card-hover {
   transition: var(--transition-smooth);
   border: 1px solid var(--border-color);
@@ -568,8 +567,7 @@ body {
   border-bottom: 1px solid #2a70d8;
 }
 
-
-/*currency toggle */;
+/*currency toggle */
 
 .currency-toggle-container {
   user-select: none;
@@ -584,7 +582,7 @@ body {
 }
 
 .currency-option.active {
-  color: var(--primary-color); 
+  color: var(--primary-color);
   font-weight: 900;
 }
 
@@ -607,12 +605,41 @@ body {
   top: 2px;
   left: 2px;
   transition: transform 0.3s ease;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-
 
 .toggle-thumb.slide {
   transform: translateX(20px);
 }
 
+/* timeLine */
+
+
+/* تنسيق النقطة الأساسي */
+.timeLineCorle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  position: relative;
+  z-index: 3;
+}
+
+.timeLineCorle::after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 0, 0, 0.3);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-year {
+  color: var(--primary-color);
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}

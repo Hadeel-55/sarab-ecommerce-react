@@ -7,10 +7,11 @@ import WatchStoryModal from "../modals/WatchStoryModal";
 import { useState } from "react";
 import HeroMarquee from "./HeroMarquee";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const { t } = useTranslation();
   const [showVideo, setShowVideo] = useState(false);
-
+const navigate=useNavigate();
   const youtubeVideoId =
     "https://youtube.com/shorts/OiAoQBTEfhM?si=Oe38mPJ2xGp1e35a";
 
@@ -42,6 +43,7 @@ const Hero = () => {
                   style={{ borderRadius: "40px" }}
                   icon={<FaUtensils />}
                   title={t("hero.menu_btn")}
+                 onClick={()=>navigate("/menu")}
                 />
               </div>
               <WatchStoryModal
