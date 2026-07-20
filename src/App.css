@@ -614,8 +614,6 @@ body {
 
 /* timeLine */
 
-
-/* تنسيق النقطة الأساسي */
 .timeLineCorle {
   width: 14px;
   height: 14px;
@@ -642,4 +640,10 @@ body {
   font-family: 'Georgia', serif;
   font-style: italic;
   font-size: 1.5rem;
+}
+
+/* Open Hours */
+
+.hoursSection{
+      background: linear-gradient(135deg, #2d6a4f, #1a4a35);
 }

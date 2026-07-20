@@ -6,6 +6,7 @@ import NewsletterSection from "../components/home/Newsletter";
 import Testimonials from "../components/home/Testimonials";
 import Contact from "../components/contact/Contact";
 import Chefs from '../components/home/Chefs';
+import OpeningHours from "../components/home/OpeningHours";
 const Home = () => {
   const location = useLocation();
 
@@ -28,6 +29,7 @@ const Home = () => {
       <div id="chefs">
         <Chefs/>
       </div>
+         <OpeningHours/>
       <div id="reviews">
         <Testimonials />
       </div>

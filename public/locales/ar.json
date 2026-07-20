@@ -181,7 +181,7 @@
   "contact": {
     "subtitle": "تواصل معنا",
     "title1": "اتصل",
-    "title2": "بنا",
+    "title2": " بنا",
     "description": "لديك سؤال، ملاحظة، أو ترغب في التخطيط لحدث خاص؟ يسعدنا جداً السماع منك.",
     "form": {
       "name_label": "الاسم *",
@@ -254,5 +254,33 @@
         "role": "محب الحلويات"
       }
     ]
+  },
+
+  "openingHours": {
+  "title": "أوقات العمل",
+  "subtitle1": "نحن مفتوحون",
+  "subtitle2": "لأجلك",
+  "days": {
+    "mondayTuesday": "الإثنين - الثلاثاء",
+    "wednesdayThursday": "الأربعاء - الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد"
+  },
+  "status": {
+    "closed": "مغلق"
+  },
+  "orderOnline": {
+    "title": "اطلب عبر الإنترنت",
+    "description": "احصل على طعام ساخن يصلك خلال 25 دقيقة",
+    "button": "اطلب الآن؟"
+  },
+  "contact": {
+    "findUs": "تجدنا هنا",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني"
   }
+}
+  
 }

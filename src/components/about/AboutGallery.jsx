@@ -32,7 +32,8 @@ const AboutGallery = () => {
   };
 
   return (
-    <Container className="mt-5">
+    <div className="bg-white">
+    <Container className="mt-5 pt-5 pb-5">
       <div className=" text-center">
         <h6 style={{ color: "var(--primary-color)" }}>
           {t("about.gallery.subtitle")}
@@ -133,7 +134,7 @@ const AboutGallery = () => {
           
           <Button 
             onClick={() => setShowVideo(false)} 
-            className="btn-close btn-close-light position-absolute top-0 end-0 m-3"
+            className="btn-close btn-close-light bg-light position-absolute top-0 end-0 m-3"
             aria-label="Close"
             
           ></Button>
@@ -162,6 +163,7 @@ const AboutGallery = () => {
         </div>
       </CustomModal>
     </Container>
+        </div>
   );
 };
 export default AboutGallery;

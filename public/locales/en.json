@@ -255,5 +255,31 @@
         "role": "Sweet Tooth"
       }
     ]
+  },
+  "openingHours": {
+  "title": "Opening Hours",
+  "subtitle1": "We're Open ",
+  "subtitle2": "For You",
+  "days": {
+    "mondayTuesday": "Monday - Tuesday",
+    "wednesdayThursday": "Wednesday - Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "status": {
+    "closed": "Closed"
+  },
+  "orderOnline": {
+    "title": "Order Online",
+    "description": "Get hot food delivered in 25 minutes",
+    "button": "Order Now ?"
+  },
+  "contact": {
+    "findUs": "Find Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
   }
+}
 }
