@@ -1,12 +1,22 @@
+import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Menu from "../pages/Menu";
-import ProductDetails from "../pages/ProductDetails";
-import Checkout from "../pages/Checkout";
-import Reservations from "../pages/Reservations";
-import NotFound from "../pages/NotFound";
+
+const Home = lazy(() => import("../pages/Home"));
+const About = lazy(() => import("../pages/About"));
+const Menu = lazy(() => import("../pages/Menu"));
+const ProductDetails = lazy(() => import("../pages/ProductDetails"));
+const Checkout = lazy(() => import("../pages/Checkout"));
+const Reservations = lazy(() => import("../pages/Reservations"));
+const NotFound = lazy(() => import("../pages/NotFound"));
+
+const PageLoader = () => (
+  <div className="d-flex justofy-content-center align-items-center py-5 my-5">
+    <div className="spinner-border text-warning" role="status">
+      <span className="visually-hidden">Loading...</span>
+    </div>
+  </div>
+);
 
 export const router = createBrowserRouter([
   {
@@ -20,11 +30,14 @@ export const router = createBrowserRouter([
       { path: "product/:id", element: <ProductDetails /> },
       { path: "checkout", element: <Checkout /> },
       { path: "reservations", element: <Reservations /> },
-   
     ],
   },
   {
     path: "*",
-    element: <NotFound />,
+    element: (
+      <Suspense>
+        <NotFound />
+      </Suspense>
+    ),
   },
 ]);
